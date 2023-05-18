@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contacto</h1>
+      <a href="../index.html">
+        <img src="../img/Logo.png" alt="Logo">
+      </a>
+      
+      <!-- <a href="../index.html">
+        <button>Volver</button>
+      </a> -->
+    </header>
+    <main>
+      <section>
+        <h2>Formulario de contacto</h2>
+        <form
+          action="contacto.html"
+          method="POST"
+          style="display: flex; flex-direction: column; width: 300px"
+        >
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="mensaje">Mensaje</label>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+          <input type="button" value="Enviar" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
